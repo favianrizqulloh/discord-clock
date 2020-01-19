@@ -30,5 +30,6 @@ Run:
 3. Well, technically you're done!.
 
 ## Need help? Join us on Discord!
-[Click here to join our community on Discord](https://discord.io/favcommunity)
+# [Click here to join our community on Discord!](https://discord.io/favcommunity)
+
 ![FΛV Community](https://api.gaminggeek.dev/gstats/TePuaqF)
