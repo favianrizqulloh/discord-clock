@@ -28,3 +28,7 @@ Run:
 1. Open your terminal or command prompt or whatever it is called, navigate (`cd`) to the cloned repo;
 2. Run `node index.js` or `npm start`;
 3. Well, technically you're done!.
+
+## Need help? Join us on Discord!
+[Click here to join our community on Discord](https://discord.io/favcommunity)
+![FΛV Community](https://api.gaminggeek.dev/gstats/TePuaqF)
