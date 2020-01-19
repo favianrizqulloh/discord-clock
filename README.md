@@ -31,5 +31,3 @@ Run:
 
 # Join us on Discord!
 ## [Click here to join our community on Discord!](https://discord.io/favcommunity)
-
-![FΛV Community](https://api.gaminggeek.dev/gstats/TePuaqF)
