@@ -10,7 +10,6 @@ A simple clock script for your bot to show what time it is in your server | Made
 
 
 ## Get Started
-***
 Requirements:
 1. [**Node.js**](https://nodejs.org/en/) v10 or higher LTS version;
 2. [**Your Discord bot's token**](https://discordapp.com/developers/applications/);
@@ -28,6 +27,8 @@ Run:
 1. Open your terminal or command prompt or whatever it is called, navigate (`cd`) to the cloned repo;
 2. Run `node index.js` or `npm start`;
 3. Well, technically you're done!.
+
+**PRs are welcome, submit your ideas!**
 
 # Join us on Discord!
 ## [Click here to join our community on Discord!](https://discord.io/favcommunity)
