@@ -12,7 +12,7 @@ client.once('ready', () => {
   //init time
   const timeNow = moment().tz(timezone).format(format);
   //define clockChannel
-  const clockChannel = client.channels.get(clockchannel);
+  const clockChannel = client.channels.cache.get(clockchannel);
   //initial update
   clockChannel.edit({ name: `🕒 ${timeNow}` }, 'Clock update')
     .catch(console.error);
