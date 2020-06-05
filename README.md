@@ -29,5 +29,8 @@ Run:
 2. Run `node index.js` or `npm start`;
 3. Well, technically you're done!.
 
-# Join us on Discord!
+# Note
+> The clock is updated every 10 minutes, so **it is not up-to-date**. Because Discord is now __ratelimiting__ us for _10 minutes_ to change the channel's name! 
+
+# Join us on Discord
 [![FΛV Community Discord server](https://discordapp.com/api/guilds/400583109789089793/embed.png?style=banner3)](https://discord.gg/TePuaqF)
