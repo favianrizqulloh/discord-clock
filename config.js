@@ -2,7 +2,7 @@ module.exports = {
   //all fields are **required**
   token: 'NTY3MTIzzfutyWBshRSNPdyA.sggwR0.MiuR2zs5BR_tFXIwFkqu3Ci2qKr', // Your bot's token
   position:0, //channel postition
-  guild_id:123456789012345678 //server id
+  guild_id:"123456789012345678", //server id
   timezone: 'Asia/Jakarta', // Timezone (take a look at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)
   format: 'HH:mm (z)', // Clock format, leave this default seting for 24h format, read more at https://momentjs.com/docs/#/displaying/format/
   updateinterval: 60000, // Discord is ratelimiting us for 10 minutes!
