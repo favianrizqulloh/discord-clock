@@ -13,7 +13,7 @@ const { timezone, format, clockchannel, updateinterval, token,bitrate,userLimit,
 client.once('ready',async () => {
   //init time
   const timeNow = moment().tz(timezone).format(format);
-  //define clockChannel
+  //No position, just in case the channel moved
   let clockChannel = client.channels.cache.find(channel => channel.bitrate === bitrate && channel.userLimit === channel.userLimit) 
   if (clockChannel) await clockChannel.delete()
   clockChannel =  await client.guilds.cache.get(guild_id).channels.create(`🕒 ${timeNow}`,{
