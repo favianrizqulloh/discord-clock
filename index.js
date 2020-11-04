@@ -15,17 +15,19 @@ client.once('ready',async () => {
   const timeNow = moment().tz(timezone).format(format);
   //No position, just in case the channel moved
   let clockChannel = client.channels.cache.find(channel => channel.bitrate === bitrate && channel.userLimit === channel.userLimit) 
-  if (clockChannel) await clockChannel.delete()
-  clockChannel =  await client.guilds.cache.get(guild_id).channels.create(`🕒 ${timeNow}`,{
-    bitrate,userLimit,position,type:"voice"
+  clockChannel.clone({ bitrate,userLimit,position,type:"voice",name:`🕒 ${timeNow}` })
+  .then(async channel => {
+    if (clockChannel) await clockChannel.delete()
+    clockChannel =  channel
   })
   
   //set the interval
   setInterval(async () => {
     const timeNowUpdate = moment().tz(timezone).format(format);
-    await clockChannel.delete()
-    clockChannel = await client.guilds.cache.get(guild_id).channels.create(`🕒 ${timeNowUpdate}`,{
-      bitrate,userLimit,position,type:"voice"
+    clockChannel.clone({ bitrate,userLimit,position,type:"voice",name:`🕒 ${timeNowUpdate}` })
+    .then(async channel => {
+      await clockChannel.delete()
+      clockChannel =  channel
     })
   }, updateinterval);
   //tells if it is ready
