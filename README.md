@@ -29,5 +29,9 @@ Run:
 2. Run `node index.js` or `npm start`;
 3. Well, technically you're done!.
 
+<<<<<<< HEAD
 # Join us on Discord
+=======
+# Join us on Discord!
+>>>>>>> parent of fdbb54a... Welp, Discord is ratelimiting us!
 [![FΛV Community Discord server](https://discordapp.com/api/guilds/400583109789089793/embed.png?style=banner3)](https://discord.gg/TePuaqF)
