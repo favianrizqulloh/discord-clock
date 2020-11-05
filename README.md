@@ -22,7 +22,7 @@ Installation:
 3. Run `npm install`.
 
 Configuration:
-Open `config.js` file with your favorite text editor and change all required fields.
+Open [`config.js`](https://github.com/favianrizqulloh/discord-clock/blob/master/config.js) file with your favorite text editor and change all required fields.
 
 Run:
 1. Open your terminal or command prompt or whatever it is called, navigate (`cd`) to the cloned repo;
