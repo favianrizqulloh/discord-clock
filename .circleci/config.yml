@@ -2,10 +2,12 @@ version: 2
 jobs:
   test:
     docker:
-      - image: circleci/node:12.18.0
+      - image: circleci/node:16.6.0
     steps:
       - checkout
-      - run: npm install && npm start
+      - run: 
+          command: npm install && npm test
+          no_output_timeout: 12m
 workflows:
   version: 2
   test:

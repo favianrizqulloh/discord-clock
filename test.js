@@ -23,6 +23,10 @@ client.once('ready', () => {
     clockChannel.edit({ name: `🕒 ${timeNowUpdate}` }, 'Clock update')
       .catch(console.error);
   }, UPDATE_INTERVAL);
+  setTimeout(() => {
+    console.log("Stopping process with the code \"0\"...");
+    process.exit(0);
+  }, UPDATE_INTERVAL);
   //tells if it is ready
 	console.log(chalk.greenBright("[READY]"), `Logged in as ${client.user.tag} (${client.user.id}) at ${moment().format("DD MMMM YYYY, HH:mm:ss")}`);
 });
