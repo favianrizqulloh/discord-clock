@@ -16,7 +16,7 @@
     "dotenv": "^10.0.0",
     "chalk": "^4.1.0",
     "moment": "^2.29.2",
-    "moment-timezone": "^0.5.31"
+    "moment-timezone": "^0.5.35"
   },
   "repository": {
     "url": "https://github.com/favianrizqulloh/discord-clock"
